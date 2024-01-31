@@ -1,6 +1,6 @@
 clc; clear; close all;
 
-addpath(genpath("../cvx/sedumi"))
+addpath(genpath("../sedumi"))
 
 % describe dimensions of the cones
 K.f = 1; % free cone
