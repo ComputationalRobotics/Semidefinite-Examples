@@ -8,9 +8,9 @@ p = det(lam*eye(3) - A);
 p = collect(p,lam);
 
 
-xx = -2:0.01:2; 
-yy = -2:0.01:2;
-zz = -2:0.01:2;
+xx = -2:0.02:2; 
+yy = -2:0.02:2;
+zz = -2:0.02:2;
 [X,Y,Z] = meshgrid(xx,yy,zz);
 
 ineq = (-X.^2 - Y.^2 - Z.^2 + 3 >= 0) & ...
