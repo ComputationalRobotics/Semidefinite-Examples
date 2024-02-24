@@ -1,7 +1,7 @@
 clc; clear; close all;
 
 %% number of nodes
-n = 30;
+n = 50;
 noise_bound = 120;
 
 %% random groundtruth rotations at each node
