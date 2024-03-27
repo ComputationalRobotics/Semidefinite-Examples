@@ -1,0 +1,3 @@
+[submodule "spotless"]
+	path = spotless
+	url = https://github.com/spot-toolbox/spotless
